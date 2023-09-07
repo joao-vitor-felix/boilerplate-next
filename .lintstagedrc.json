@@ -2,11 +2,11 @@
   "*.ts": [
     "npx eslint --max-warnings=0 --fix",
     "npx prettier --write",
-    "npm run test:staged"
+    "npm test"
   ],
   "*.tsx": [
     "npx eslint --max-warnings=0 --fix",
     "npx prettier --write",
-    "npm run test:staged"
+    "npm test"
   ]
 }
