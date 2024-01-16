@@ -12,7 +12,9 @@
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:testing-library/react",
+    "plugin:testing-library/dom"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -22,9 +24,17 @@
       "jsx": true
     }
   },
-  "plugins": ["react", "react-hooks", "@typescript-eslint"],
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint",
+    "simple-import-sort",
+    "testing-library"
+  ],
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "simple-import-sort/imports": "warn",
+    "simple-import-sort/exports": "warn"
   },
   "ignorePatterns": ["node_modules", "!.*"]
 }
