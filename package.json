@@ -44,7 +44,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-tailwindcss": "^3.17.4",
-    "eslint-plugin-testing-library": "^6.2.2",
+    "eslint-plugin-testing-library": "^6.4.0",
     "git-commit-msg-linter": "^5.0.8",
     "husky": "^9.0.11",
     "jsdom": "^24.1.0",
