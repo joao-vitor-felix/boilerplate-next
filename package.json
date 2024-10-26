@@ -17,7 +17,7 @@
     "postinstall": "husky"
   },
   "dependencies": {
-    "next": "14.2.4",
+    "next": "15.0.1",
     "next-safe-action": "^7.9.7",
     "react": "18.3.1",
     "react-dom": "18.3.1"
